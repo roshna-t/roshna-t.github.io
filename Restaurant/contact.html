@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<! --
+Name: Roshna Tamang
+Date Created: 4/5/19
+-->
+<html>
+<head>
+  <title>Roshna's Restaurant</title>
+</head>
+<style>
+body {
+background-image:url("https://cdn.pixabay.com/photo/2017/03/05/12/04/bamboo-2118460_1280.jpg");
+}
+
+</style>
+<center>
+  <h1>My Restaurant</h>
+  </center>
+<hr/>
+<center>
+<p style="float: left; padding: 8px"><a href="index.html">Home</a></p>
+<p style="float: left; padding: 8px"><a href="menu.html">Menu</a></p>
+<p style="float: left; padding: 8px"><a href="contact.html">Contact Us</a></p>
+</center>
+<br>
+<br>
+<br>
+<br>
+<hr/>
+<center>
+  <form action="sendRequest.html" method="POST">
+    <label for="name">Name:</label> <br />
+    <input type="text" id="name" name="name"> <br />
+    <label for="email">Email:</label> <br />
+    <input type="text" id="email" name="email"> <br />
+    <label for="phone">Phone Number:</label> <br />
+    <input type="text" id="phone" name="phone"> <br />
+    <label for="inquiry">Reason for Inquiry: </label> <br />
+    <select id="inquiry" name="inquiry">
+      <option value="default" selected>--Select One--</option>
+      <option value="catering">Catering</option>
+      <option value="private">Private Party</option>
+      <option value="feedback">Feedback</option>
+      <option value="other">Other</option>
+    </select> <br />
+
+    <label for="info">Additional Information</labl> <br />
+      <textarea id="info" name="info"></textarea>
+
+    <fieldset>
+      <legend>Have you been to the restaurant?:</legend> <br />
+      <input type="radio" id="choice1" name="have you"
+      value="yes">
+      <label for="choice1">Yes</label> <br />
+      <input type="radio" id="choice2" name="have you"
+      value="no">
+      <label for="choice2">No</label> <br />
+    </fieldset>
+    <fieldset>
+      <legend>Best days to contact you:</legend>
+      <input type="checkbox" id="monday" name="bestDay"
+      value="monday">
+      <label for="monday">M</label>
+      <input type="checkbox" id="tuesday" name="bestDay"
+      value="tuesday">
+      <label for="tuesday">T</label>
+      <input type="checkbox" id="wednesday" name="bestDay"
+      value="wednesday">
+      <label for="wednesday">W</label>
+      <input type="checkbox" id="thursday" name="bestDay"
+      value="thursday">
+      <label for="thursday">Th</label>
+      <input type="checkbox" id="friday" name="bestDay"
+      value="friday">
+      <label for="friday">F</label> <br /> <br />
+    </fielset>
+    <input type="sendRequest" name="sendRequest" value="Send Request">
+  </form>
+  <hr />
+  <footer>
+    <center>
+    <p> Address: 123 Dumpling Street, Yummy Land USA</p>
+    <p> Tel: (212) 123 4567 </p>
+  </center>
+  </footer>
+</body>
+</html>
