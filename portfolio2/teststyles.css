@@ -1,0 +1,21 @@
+
+body {
+      font-family: 'Dosis', sans-serif; 
+      background-color: lightsteelblue;
+          }
+header, footer {
+    background-color: darkgray;
+    height: 100px;
+    text-align: center;
+    padding: 30px 10px 20px 10px;
+}
+h1 {
+    font-size: 2.5em;
+}
+            }
+nav {
+    border-top: 3px dashed white;
+    border-bottom:3px dashed white;
+    margin-top: 4px;
+}
+           
