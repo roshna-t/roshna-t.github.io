@@ -2,6 +2,8 @@
 body {
       font-family: 'Dosis', sans-serif; 
       background-color: lightsteelblue;
+    max-width: 900px;
+    margin: 0 auto;
           }
 header, footer {
     background-color: darkgray;
@@ -18,4 +20,37 @@ nav {
     border-bottom:3px dashed white;
     margin-top: 4px;
 }
-           
+.clear-float {
+    clear:both;
+}
+article img {
+    float:left;
+}
+.right-content {
+    float:left;
+} 
+article {
+    margin-bottom: 16px;
+}
+nav a {
+    background-color: darkgray;
+    color: black;
+    padding: 8px;
+    border: thin solid black;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    margin: 20px;
+    width: 100px;
+    float: left;
+}
+nav a:hover {
+    background-color:lightsteelblue;
+    color:white;
+}
+nav a:active {
+    font-weight: bold;
+}
+nav a:visited {
+    color:gold;
+}
