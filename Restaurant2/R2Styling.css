@@ -18,7 +18,7 @@ nav {
     margin-top: 4px;
 }
 
-nav a {
+nav .btn {
     background-color: burlywood;
     color: black;
     padding 10px;
@@ -30,13 +30,13 @@ nav a {
     width: 150px;
     float: left;
 }
-nav a:hover {
+nav .btn:hover {
     background-color: beige;
     color:white;
 }
-nav a:active {
+nav .btn:active {
     font-weight: bold;
 }
-nav a:visited {
-    color: chocolate;
+nav .btn:visited {
+    color: brown;
 }
