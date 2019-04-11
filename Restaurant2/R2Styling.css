@@ -1,0 +1,42 @@
+body {
+    font-family: 'Vidaloka', serif;
+    max-width: 900px;
+    margin: 0 auto;
+}
+header, footer {
+    background-color: burlywood;
+    height: 100px;
+    text-align: center;
+    padding: 30px 10px 20px 10px;
+}
+h1{
+    font-size: 3em;
+}
+nav {
+    border-top: 3px dashed brown;
+    border-bottom: 3px dashed brown;
+    margin-top: 4px;
+}
+
+nav a {
+    background-color: burlywood;
+    color: black;
+    padding 10px;
+    border: thin solid black;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    margin: 20px;
+    width: 150px;
+    float: left;
+}
+nav a:hover {
+    background-color: beige;
+    color:white;
+}
+nav a:active {
+    font-weight: bold;
+}
+nav a:visited {
+    color: chocolate;
+}
