@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<! --
+Name: Roshna Tamang
+Date Created: 4/11/19
+-->
+<html>
+<head>
+<script type="text/JavaScript" src="form.js"></script>
+    
+  <title>Roshna's Restaurant</title>
+    
+       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    
+       <link href="https://fonts.googleapis.com/css?family=Vidaloka" rel="stylesheet">
+     <link href="R2Styling.css" rel="stylesheet" type="text/css" />
+    <link href="R3Styling.css" rel="stylesheet" type="text/css" />
+    <link href="formR3.css" rel="stylesheet" type="text/css" />   
+    
+</head>
+<style>
+body {
+background-image:url("images/bg.jpg");
+}
+
+</style>
+<header>
+  <h1>Contact Us</h1>
+    </header>
+
+<nav>
+    <div style="display:inline-block">
+<p><a class="btn badge-pill" href="index.html">Home</a></p>
+        </div>
+    <div style="display:inline-block">
+<p><a class="btn badge-pill" href="menuR3.html">Menu</a></p>
+        </div>
+    <div style="display:inline-block">
+<p><a class="btn badge-pill" href="contactR3.html">Contact Us</a></p>
+        </div>
+      <div class="clear-float"></div>
+    </nav>
+<br>
+<br>
+
+<center>
+<!--
+    <form name="contactUs" onsubmit="return validateItems();"
+          onreset="resetform();" class="form-inline">
+-->
+  <form name="contactUs" onsubmit="return validateItems();">
+    <label for="name">Name:</label> <br />
+    <input type="text" id="name" name="name" placeholder="Please Enter Your Name"> <br />
+    <label for="email">Email:</label> <br />
+    <input type="text" id="email" name="email" placeholder="Please Enter Your Email"> <br />
+    <label for="phone">Phone Number:</label> <br />
+    <input type="text" id="phone" name="phone" placeholder="Please Enter Your Phone Number"> <br />
+    <label for="inquiry">Reason for Inquiry: </label> <br />
+    <select id="inquiry" name="inquiry">
+      <option value="default" selected>--Select One--</option>
+      <option value="catering">Catering</option>
+      <option value="private">Private Party</option>
+      <option value="feedback">Feedback</option>
+      <option value="other">Other</option>
+    </select> <br />
+
+    <label for="info">Additional Information</label> <br />
+      <textarea id="info" name="info"></textarea>
+
+    <fieldset>
+      <legend>Have you been to the restaurant?:</legend> <br />
+      <input type="radio" id="choice1" name="have you"
+      value="yes">
+      <label for="choice1">Yes</label> <br />
+      <input type="radio" id="choice2" name="have you"
+      value="no">
+      <label for="choice2">No</label> <br />
+    </fieldset>
+    <fieldset>
+      <legend>Best days to contact you:</legend>
+      <input type="checkbox" id="monday" name="bestDay"
+      value="monday">
+      <label for="monday">M</label>
+      <input type="checkbox" id="tuesday" name="bestDay"
+      value="tuesday">
+      <label for="tuesday">T</label>
+      <input type="checkbox" id="wednesday" name="bestDay"
+      value="wednesday">
+      <label for="wednesday">W</label>
+      <input type="checkbox" id="thursday" name="bestDay"
+      value="thursday">
+      <label for="thursday">Th</label>
+      <input type="checkbox" id="friday" name="bestDay"
+      value="friday">
+      <label for="friday">F</label> <br /> <br />
+    </fieldset>
+      <button type="submit" id="sendRequest" class="btn btn-default">Send Request</button>
+<!--    <input type="sendRequest" name="sendRequest" value="Send Request">-->
+      
+  </form>
+  <hr />
+  <footer>
+    <center>
+    <p> Address: 123 Dumpling Street, Yummy Land USA</p>
+    <p> Tel: (212) 123 4567 </p>
+  </center>
+  </footer>
+</body>
+</html>

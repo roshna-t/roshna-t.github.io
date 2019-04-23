@@ -1,0 +1,19 @@
+body {
+    font-family: 'Prata', serif;
+}
+
+nav {
+    border-top: thin #5b7d87 solid;
+    border-bottom: thin #5b7d87 solid;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+nav .btn {
+    background-color: gainsboro;
+    color: black;
+   
+}
+nav .btn:hover {
+    font-weight: bold;
+    opacity: 0.3;
+}

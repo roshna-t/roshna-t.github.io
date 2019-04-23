@@ -1,0 +1,44 @@
+label, fieldset {
+   font-size: 1.1em; 
+}
+input[type=text] {
+    border: 2px solid #0d1f2d;
+    width: 50%;
+    padding: 8px 8px;
+    margin: 12px 0;
+    box-sizing: 1.1em;
+}
+fieldset {
+    background-color:beige;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 12px 0;
+    box-sizing: border-box;
+}
+select, textarea {
+    margin: 12px 0;
+    font-size: 1em;
+}
+input[type=sendRequest] {
+    font-size: 1.2em;
+    background-color: burlywood;
+    text-align: center;
+    color:black;
+    padding: 4px 8px;
+    margin: 12px 0;
+}
+input[type=sendRequest]:hover {
+    background-color:beige;
+    color:black;
+}
+textarea {
+    width: 100%;
+    height: 200px;
+    padding: 12px 20px;
+    margin: 12px 0;
+    box-sizing: border-box;
+    border: 2px solid #0d1f2d;
+    border-radius: 3px;
+    background-color: #fff;
+    resize: none;
+}
